@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 10px;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-bottom.svg");
+}
+
+.box {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15%;
+  width: 250px;
+  height: 350px;
+  background-color: #ffff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.box .bgimg {
+  background-image: url("../images/bg-pattern-card.svg");
+  height: 35%;
+  width: 100%;
+  display: block;
+}
+
+.box .img {
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 90px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.box .title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.box .title__name {
+  float: left;
+  font-size: 1.7em;
+  color: #2d3248;
+}
+
+.box .title__age {
+  margin-left: 5px;
+  float: left;
+  font-size: 1.7em;
+  color: #6a6f81;
+}
+
+.box .title__city {
+  font-size: 1.6em;
+  text-align: center;
+  color: #6a6f81;
+  margin-top: 25px;
+}
+
+.box .line {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.box .social-media {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+}
+
+.box .social-media .social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 85px;
+}
+
+.box .social-media h3 {
+  color: #2d3248;
+  font-size: 1.6em;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=style.css.map */
